@@ -1,0 +1,30 @@
+{
+  "name": "didipai-presale",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o out",
+    "deploy:ghpages": "next build && next export && gh-pages -d out"
+  },
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "framer-motion": "^10.12.6",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "wagmi": "^1.2.0",
+    "@web3modal/react": "^2.8.0",
+    "@web3modal/ethereum": "^2.8.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.5.0",
+    "gh-pages": "^5.0.0"
+  }
+}
