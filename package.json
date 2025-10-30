@@ -10,19 +10,16 @@
     "deploy:ghpages": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
-  "ethers": "^6.8.0",
-  "framer-motion": "^10.16.4",
-  "react-hot-toast": "^2.4.1",
-  "react-icons": "^4.11.0",
-  "next": "14.0.0",
-  "react": "18.2.0",
-  "react-dom": "18.2.0",
-  "wagmi": "^1.2.0",
-  "@web3modal/wagmi": "^3.5.3",
-  "@web3modal/react": "^3.5.3"
-}
-
-
+    "ethers": "^6.8.0",
+    "framer-motion": "^10.16.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "wagmi": "^1.2.0",
+    "@web3modal/react": "^3.5.3",
+    "@web3modal/wagmi": "^3.5.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
